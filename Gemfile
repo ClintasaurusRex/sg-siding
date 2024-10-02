@@ -50,8 +50,6 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
-  # Highlight the fine-grained location where an error occurred [https://github.com/ruby/error_highlight]
-  gem "error_highlight", "0.6.0", platforms: [:ruby]
 end
 
 group :test do
