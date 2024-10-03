@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    
     @page_title = "Welcome to My Homepage"
     @features = [
       { title: "Feature 1", description: "Description of feature 1", link: "#feature1" },

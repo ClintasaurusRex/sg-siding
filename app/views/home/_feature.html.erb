@@ -1,0 +1,7 @@
+<div class="feature">
+  <h3><%= title %></h3>
+  <p><%= description %></p>
+  <% if local_assigns[:link] %>
+    <%= link_to "Learn more", link, class: "feature-link" %>
+  <% end %>
+</div>
