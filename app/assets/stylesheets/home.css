@@ -4,6 +4,12 @@ body {
   margin: 0;
   padding: 20px;
 }
+main {
+  /* align-content: center; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 h1 {
   color: #333;
